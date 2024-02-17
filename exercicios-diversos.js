@@ -83,7 +83,7 @@ function removerDuplicatas(array) {
   function diaDaSemana(){
     let dia = prompt("Digite o dia da semana de hoje:");
     if (dia == "sábado" || dia== "domingo"){
-        alert('Bom final de semana');
+        alert('Ótimo final de semana');
     } else{
         alert('Boa semana');
     }
