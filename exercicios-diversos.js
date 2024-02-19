@@ -36,7 +36,7 @@ function calculadora(){
 
 function conversorDeTemperatura(){
     let tipoTemperatura = prompt("Vai digitar a temperatura em celsius ou fahrenheit? ");
-    let grau = parseFloat(prompt("Digite os graus:"));
+    let grau = parseFloat(prompt("Digite o valor da temperatura que deseja converter:"));
     let grauResultado = 0;
 
     if (tipoTemperatura == 'celsius') {
