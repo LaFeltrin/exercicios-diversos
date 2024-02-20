@@ -1,5 +1,5 @@
 function parOuImpar(){
-    let numero = prompt("Digite um numero para saber se é par ou ímpar:");
+    let numero = prompt("Digite um numero para saber se é ímpar ou par:");
 
 if(numero % 2 == 0){
     console.log(`O número ${numero} é par`);
